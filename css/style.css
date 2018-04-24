@@ -1,0 +1,96 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.location {
+  background-color: #F0F0F0;
+  padding: 16px;
+  border: 1px solid #7E7C7E;
+}
+
+body {
+  background-color: #333;
+  font-family: SF Pro Text;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+}
+
+nav {
+  background-color: #00967B;
+  margin: 0 auto;
+  padding: 20px 0 15px 15px;
+  position: fixed;
+  width: 375px;
+  height: 117px;
+}
+
+.arrow-left {
+  padding-top:20px;
+}
+
+.arrow-left h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  float: right;
+  padding-right:100px;
+  font-family: SF Pro Text;
+}
+
+.route-list {
+  padding-top: 112px;
+}
+
+.content h1 {
+  font-size: 16px;
+  font-weight: 100;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content h3 {
+  font-size: 17px;
+  padding-top: 5px;
+  font-weight: normal;
+}
+
+h3 span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h3 span1 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h1 span1{
+  color: #059041;
+}
+
+h1 span2{
+  color: #036AF3;
+}
+
+h1 span3{
+  color: #DA2828;
+}
+
+.content {
+ display: inline-block;
+ font-family: SF Pro Text;
+}
+
+.wait-time {
+  float: right;
+  padding: 2px;
+  font-family: SF Pro Text;
+  font-size: 15px;
+  padding-top: 42px;
+  line-height: 1.5;
+  text-align:right;
+}
