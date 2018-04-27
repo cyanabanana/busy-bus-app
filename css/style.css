@@ -65,6 +65,13 @@ nav {
   padding-bottom: 10px;
 }
 
+h2 span {
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 40px;
+  line-height: 1.25;
+}
+
 .content h3 {
   font-size: 17px;
   padding-top: 5px;
@@ -76,20 +83,15 @@ h3 span {
   font-size: 18px;
 }
 
-h3 span1 {
-  font-weight: 600;
-  font-size: 16px;
-}
-
-h1 span1{
+h1 span{
   color: #059041;
 }
 
-h1 span2{
+.reroute{
   color: #036AF3;
 }
 
-h1 span3{
+.out-of-service{
   color: #DA2828;
 }
 
@@ -106,6 +108,12 @@ h1 span3{
   padding-top: 42px;
   line-height: 1.5;
   text-align:right;
+}
+
+.arriving {
+  color: #DA2828;
+  font-weight: 700;
+  font-size: 17px;
 }
 
 .washington_state {
